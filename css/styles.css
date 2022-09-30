@@ -1,0 +1,203 @@
+:root{
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --hero-color: #2F303A;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --hero-button-color: #188CE8;
+  --accent-color: #2196F3;
+  --team-section-color: #F5F4FA;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body{
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: var(--color-white);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+ul{
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Header */
+
+.logo{
+  color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+
+.header .part{
+  color: var(--color-black);
+}
+
+
+.navigation .link{
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.142;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.navigation .link:hover{
+  color: var(--accent-color);
+}
+
+.navigation .link:focus {
+  color: var(--accent-color);
+}
+
+.navigation .current{
+  color: var(--accent-color);
+}
+
+.header .contacts{
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.142;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.header .contacts:hover{
+  color: var(--accent-color);
+}
+
+.header .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+/* Header */
+
+.hero{
+  background-color: var(--hero-color);
+}
+
+.hero > .title{
+  color: var(--color-white);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3636;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero .button{
+  color: var(--color-white);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  background-color: var(--accent-color);
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+
+.hero .button:hover{
+  background-color: var(--hero-button-color);
+}
+
+.hero .button:focus {
+  background-color: var(--hero-button-color);
+}
+
+/* Advances */
+
+.advances .title{
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.142;
+  text-transform: uppercase;
+}
+
+.photo-section .title{
+  color: var(--title-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.166;
+}
+
+/* Team */
+
+.team{
+  background-color: var(--team-section-color);
+}
+
+.team .title{
+  color: var(--title-text-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.116;
+}
+
+.team .item{
+  background-color: #ffffff;
+}
+
+.team-mate{
+  color: var(--title-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1875;
+}
+
+.team .text{
+  font-size: 16px;
+  line-height: 1.1875;
+}
+
+/* Footer */
+
+.footer{
+  background-color: var(--hero-color);
+}
+
+.footer .part{
+  color: var(--color-white);
+}
+
+.footer .goelocation{
+  color: var(--color-white);
+}
+
+.footer .link{
+  color: var(--footer-contacts-color);
+}
+
+.footer .element{
+  text-decoration: none;
+  font-style: normal;
+}
+
+.footer .element:hover{
+  color: var(--accent-color);
+}
+
+.footer .element:focus{
+  color: var(--accent-color);
+}
