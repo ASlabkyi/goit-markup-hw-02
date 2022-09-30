@@ -12,7 +12,7 @@
 
 body{
   color: var(--primary-text-color);
-  font-family: 'Roboto', 'Arial', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
   background-color: var(--color-white);
@@ -41,7 +41,7 @@ ul{
 
 .logo{
   color: var(--accent-color);
-  font-family: 'Raleway','Arial', sans-serif;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
